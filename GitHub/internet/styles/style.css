@@ -1,0 +1,571 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+    
+
+
+/* navbar */
+.ulhome{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: hsla(0, 0%, 50%, 0.39);
+    padding: 4vh;
+}
+
+
+.ahome a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    font-size: 24px;
+}
+
+.ahome a:hover {
+    background-color: hsla(0, 0%, 50%, 0.597);
+    border-radius: 10px;
+    text-decoration: underline;
+    transition: all 250ms ease-in;
+}
+
+
+/* welcome tekst home */
+h1{
+    margin-top: 10vh;
+    color: black;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.phome{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.divhome{
+    margin-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* knoppen home */
+.kaartsectie{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kaart1{
+    width: 100vw;
+    height: 35vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.kaart1 img{
+    height: 51vh;
+    width: 100%;
+    transform:translateY(-30%);
+}
+
+.kaart2{
+    width: 100vw;
+    height: 35vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.kaart2 img{
+    width: 100%;
+    transform:translateY(-30%);
+}
+
+.kaart3{
+    width: 100vw;
+    height: 35vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.kaart3 img{
+    width: 100%;
+}
+
+.knoppenkaart{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    margin-top: 0px;
+}
+
+.knoppenkaart p{
+    background-color: rgb(212, 212, 212);
+    padding: 20px 100px 20px 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    border: 3px solid black;
+    transition: all 250ms ease-in;
+}
+
+.knoppenkaart a{
+    text-decoration: none;
+    color: black;
+}
+
+.knoppenkaart p:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+.pagina1{
+    background-color: hsla(0, 0%, 50%, 0.39);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: black;
+    
+}
+
+
+.bronnen1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bronnen1 li{
+    list-style: none;
+}
+
+.bronnen1 a:hover{
+    background-color: hsla(0, 0%, 50%, 0.39);
+    padding: 2px 2px 2px 2px;
+    border-radius: 3px;
+}
+
+
+.bronnen1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.socials img{
+    width: 6vw;
+    height: 10vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* rondreis pagina2 */
+
+.divhome2{
+    padding: 20px 40px 100px 20px;
+}
+
+.dr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/* punta cana */
+.main2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.main2 ol{
+    list-style: none;
+}
+
+.main2 section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main2 img{
+    border-radius: 15px;
+}
+
+.main2 section{
+    margin-top: 20vh;
+}
+
+.puntacana div{
+    display: flex;
+}
+
+.tekstpuntacana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.puntacana img{
+    height: 50vh;
+}
+
+
+/* paradijs */
+
+.paradijs div{
+    display: flex;
+}
+
+.tekstparadijs{
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto1{
+    width: 100vw;
+    height: 35vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.foto2{
+    width: 100vw;
+    height: 35vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.foto3{
+    width: 100vw;
+    height: 100vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.foto4{
+    width: 100vw;
+    height: 100vh;
+    margin: 1vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.paradijs div img{
+    height: 50vh;
+}
+
+
+/* Santo domingo */
+
+.santodomingo{
+    display: flex;
+}
+
+.santodomingodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.santodomingo img{
+    width: 50vh;
+}
+
+/* Boca chica */
+
+.bocaChica{
+    display: flex; 
+}
+
+.bocaChicadiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bocaChica img{
+    height: 40vh;
+}
+
+/* Barahona */
+
+.barahonadiv{
+    display: flex;
+
+}
+
+.barahonadivdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fotobarahona{
+    height: 60vh;
+    width: 80vw;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.fotobarahona img{
+    transform: translateX(-30%);
+    border-radius: 15px;
+}
+
+
+/* page activiteiten */
+
+.mainactiviteiten p{
+    font-size: 20px;
+}
+
+.offroad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.divoffroad{
+    text-align: center;
+    width: 50vw;
+}
+
+
+.offroadvideo video{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+/* isla saona */
+
+.islasection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.islavideo video{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+
+.divisla{
+    text-align: center;
+    width: 50vw;
+}
+
+/* Review kaarten */
+
+.kaartenhotels{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.review{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reviewkaart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vw;
+    border: solid 2px;
+    border-color: gray;
+    
+}
+
+.reviewfoto{
+    object-fit: cover;
+    
+}
+
+.reviewfoto img{
+    height: 10vh;
+    width: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.watvindenanderen{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Accomodatie page */
+
+.ptekstacomodatie{
+    font-size: 20px;
+}
+
+.mainaccomodatie section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.accoh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kaartenhotels{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.kaartenhotels img{
+    height: 30vh;
+    width: 23vw;
+    border-radius: 10px;
+}
+
+.beschrijving{
+    color: grey;
+}
+
+/* States, transities en animaties */
+
+.offroadvideo{
+    animation: slidein 600ms ease-in;
+    transform: translateX(0%);
+}
+
+@keyframes slidein {
+    0%{
+        transform: translateX(200%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
+
+.islavideo{
+    animation: slidein 600ms ease-in;
+    transform: translateX(0%);
+}
+
+@keyframes slidein {
+    0%{
+        transform: translateX(200%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
+
+.divisla{
+    animation: fadein 1s ease-in;
+    opacity: 100%;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
+.divoffroad{
+    animation: fadein 1s ease-in;
+    opacity: 100%;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
+.reviewkaart{
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+.hoverkaart:hover{
+    transform: scale(1.1);
+}
+
+
+
+
